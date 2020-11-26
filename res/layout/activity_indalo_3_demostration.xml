@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_diffumination"
+    tools:context=".Indalo3DemostrationActivity">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitleScreen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white_translucid"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="8dp"
+        android:text="@string/title_indalo_3_demostration"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        tools:paddingBottom="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toStartOf="@+id/guideline54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:srcCompat="@drawable/model_indalo_3_demostration" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="bt1"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/imageView53"
+        app:layout_constraintEnd_toStartOf="@+id/imageView52"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView50"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleScreen"
+        app:srcCompat="@drawable/icon_indalo_3_lavanderia" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="bt2"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/imageView54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleScreen"
+        app:srcCompat="@drawable/icon_indalo_3_cocina" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="bt3"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toStartOf="@+id/imageView54"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView50"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51"
+        app:srcCompat="@drawable/icon_indalo_3_banos" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="bt4"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView53"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        app:srcCompat="@drawable/icon_indalo_3_hogar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

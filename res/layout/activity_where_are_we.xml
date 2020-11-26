@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_water_blur"
+        tools:context=".WhoAreWeActivity">
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/toolbar_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/toolbar_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="25dp"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp"
+            app:layout_constraintGuide_percent="0.45" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp"
+            app:layout_constraintGuide_percent="0.55" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toStartOf="@+id/guideline66"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/textView89"
+            app:srcCompat="@drawable/store_miami" />
+
+        <TextView
+            android:id="@+id/textView89"
+            style="@style/TextView.DarkBlue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/title_miami"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
+            app:layout_constraintEnd_toStartOf="@+id/guideline66"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="319dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_corner_blue_translucid"
+            app:layout_constraintBottom_toTopOf="@+id/include"
+            app:layout_constraintEnd_toStartOf="@+id/guideline66"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="12053 SW 131st Ave"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/textView93"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="Miami, FL 33186"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/textView94"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/phones"
+                android:textColor="@color/color_primary_dark"
+                app:layout_constraintBottom_toTopOf="@+id/textView95"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="1-(800)-835-1967"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/textView96"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="1-(786)-429- 1779"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView95" />
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            style="@style/TextView.DarkBlue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/title_orlando"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
+            app:layout_constraintEnd_toStartOf="@id/guideline65"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/guideline67"
+            app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toStartOf="@id/guideline65"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/guideline67"
+            app:layout_constraintTop_toBottomOf="@+id/textView89"
+            app:srcCompat="@drawable/store_orlando" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="319dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_corner_blue_translucid"
+            app:layout_constraintBottom_toTopOf="@+id/include"
+            app:layout_constraintEnd_toStartOf="@id/guideline65"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@id/guideline67"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="1094 Plaza Dr,"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/textView193"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="Kissimmee, FL 34743"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/textView194"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView191" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/phones"
+                android:textColor="@color/color_primary_dark"
+                app:layout_constraintBottom_toTopOf="@+id/textView195"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView193" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center_horizontal"
+                android:text="1-(407)-910-4169"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toTopOf="@+id/textView196"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView194" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="1-(407)-452-2072"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView195" />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/navigation_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

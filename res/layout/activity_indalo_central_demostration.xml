@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tap_water"
+    tools:context=".IndaloCentralDemostrationActivity">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/title_health_desmostration_body_1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintStart_toStartOf="@+id/guideline55"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/transparent"
+        android:onClick="btMiniUnidadClicked"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline38"
+        app:layout_constraintStart_toStartOf="@+id/guideline38"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:srcCompat="@drawable/icon_indalo_central_miniunidad" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/transparent"
+        android:onClick="btJabonClicked"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:srcCompat="@drawable/icon_indalo_central_jabon" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/transparent"
+        android:onClick="btLavadoManosClicked"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/icon_indalo_central_lavado_manos" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@color/transparent"
+        android:onClick="btTdsClicked"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="@drawable/icon_indalo_central_tds_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@color/transparent"
+        android:onClick="btRopaBebeClicked"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@drawable/icon_indalo_central_tds_2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

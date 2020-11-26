@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/color_primary_dark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextView.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/web_url"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtNext"
+            app:layout_constraintStart_toEndOf="@+id/txtBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btBack"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_arrow_left"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <ImageButton
+            android:id="@+id/btNext"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_arrow_right"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/txtBack"
+            style="@style/TextView.Title.Border"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btBack"
+            app:layout_constraintStart_toEndOf="@+id/btBack"
+            app:layout_constraintTop_toTopOf="@+id/btBack" />
+
+        <TextView
+            android:id="@+id/txtNext"
+            style="@style/TextView.Title.Border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/btNext"
+            app:layout_constraintEnd_toStartOf="@+id/btNext"
+            app:layout_constraintTop_toTopOf="@+id/btNext" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
