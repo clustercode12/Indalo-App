@@ -1,0 +1,445 @@
+<resources>
+    <string name="app_name">Indalowater</string>
+
+    <!-- Log in -->
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="web_url">www.indalowater.com</string>
+    <string name="phone_number">1–800–8351-967</string>
+
+    <!-- Client Details -->
+    <string name="title_client_details">Datos del Cliente</string>
+    <string-array name="array_mr_mrs">
+        <item>Sr.</item>
+        <item>Sra.</item>
+    </string-array>
+    <string-array name="array_states">
+        <item>State</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+    <string name="item_name">Nombre</string>
+    <string name="item_last_name">Apellido</string>
+    <string name="item_phone">Tlf.</string>
+    <string name="item_email">Email</string>
+    <string name="item_city">Ciudad</string>
+    <string name="item_state">Estado</string>
+    <string name="item_zip_code">Código Postal</string>
+    <string name="action_send">Enviar</string>
+
+    <string name="name1">name1</string>
+    <string name="name2">name2</string>
+    <string name="lastName1">lastName1</string>
+    <string name="lastName2">lastName2</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+    <string name="city">city</string>
+    <string name="state">state</string>
+    <string name="zipCode">zipCode</string>
+    <string name="gender1">gender1</string>
+    <string name="gender2">gender2</string>
+
+    <!-- Welcome -->
+    <string name="title_welcome">Bienvenidos</string>
+    <string name="prompt_catherinne">, estamos aquí por las siguientes razones:</string>
+    <string name="prompt_reason_1">Hazerle una demostración completamente gratis y sin compromiso.</string>
+    <string name="prompt_reason_2">Para pedirle opinión de nuestros equipos.</string>
+    <string name="prompt_reason_3">Para que me ayude a seguir trabajando, recomendándome a sus amigos.</string>
+    <string name="prompt_reason_4">Ofrecerle a usted o a sus conocidos la posibilidad de disfrutar de nuestros productos y sus beneficios.</string>
+    <string name="action_continue">Continuar</string>
+
+    <!-- Main -->
+    <string name="title_how_are_we">¿Quiénes somos?</string>
+    <string name="title_where_are_we">¿En dónde estamos?</string>
+    <string name="title_social_responsability">Responsabilidad Social</string>
+    <string name="title_products">Productos</string>
+    <string name="title_demostration">Demostración</string>
+
+    <!--Who Are We -->
+
+    <!--Products -->
+    <string name="title_indalo_rob">Indalo ROB</string>
+    <string name="title_indalo_3">Indalo 3</string>
+    <string name="title_indalo_central">Indalo Central</string>
+    <string name="title_testimonies">Testimonios</string>
+
+    <!-- Indalo ROB -->
+    <string name="title_indalo_rob_health_1">Mejora tu salud y belleza con Agua Alcalina Indalo</string>
+    <string name="title_indalo_rob_health_2">Beneficios:</string>
+    <string name="list_indalo_rob_health_1">
+        &#8226; Máximas propiedades de hidratación.
+        \n&#8226; Potente antioxidante.
+        \n&#8226; Propiedades antiedad.
+        \n&#8226; Mejora la elasticidad natural de la piel.
+        \n&#8226; Su piel será más suave, más sana, más limpia y sin arrugas.
+        \n&#8226; Elimina toxinas, impurezas y aceites de la piel.
+        \n&#8226; Desintoxica.
+    </string>
+    <string name="list_indalo_rob_health_2">
+        &#8226; Un componente clave en la pérdida de peso.
+        \n&#8226; Aumenta tus niveles de energía.
+        \n&#8226; Mejora la digestión.
+        \n&#8226; Neutraliza la acidez de tu cuerpo.
+        \n&#8226; Aumenta la recolección de nutrientes.
+    </string>
+
+    <string name="title_purification">Purificación</string>
+    <string name="title_optimization">Optimización</string>
+    <string name="title_purification_optimization">Purificación y Optimización</string>
+    <string name="title_microprocessor">Microprocesador</string>
+    <string name="prompt_technolgy">Tecnología</string>
+
+
+    <string name="body_purification_optimization_1">Depuración del agua por ósmosis Inversa (agua Acida).</string>
+    <string name="body_purification_optimization_2">Remineralización: Devuelve al agua los 16 minerales hidrosolubles que el cuerpo absorbe de manera positiva (agua Neutral).</string>
+    <string name="body_purification_optimization_3">Alcalinización: máxima hidratación y antioxidante (agua Alcalina pH 8 a 8.5).   </string>
+
+    <string name="list_purification_optimization_1">
+        &#8226; Bicarbonato
+        \n&#8226; Cloro
+        \n&#8226; Calcio
+        \n&#8226; Cloruro
+        \n&#8226; Cobre
+        \n&#8226; Cromo
+        \n&#8226; Fósforo
+        \n&#8226; Hierro
+    </string>
+
+    <string name="list_purification_optimization_2">
+        &#8226; Magnesio
+        \n&#8226; Manganeso
+        \n&#8226; Molibdeno
+        \n&#8226; Potasio
+        \n&#8226; Selenio
+        \n&#8226; Vanadio
+        \n&#8226; Yodo\n
+        \n&#8226; Zinc
+    </string>
+
+    <string name="list_purification_optimization_3">
+        &#10004; Contiene propiedades antioxidantes.
+        \n&#10004; Puede ayudar a mejorar la digestión saludable.
+        \n&#10004; Puede ayudar a fortalecer la densidad ósea.
+        \n&#10004; Ayuda a perder peso de una manera saludable.
+        \n&#10004; Contiene propiedades hidratantes.
+        \n&#10004; Una fuente de energía vital.
+        \n&#10004; Elimina las células cancerosas.
+    </string>
+
+    <string name="title_cloro">Cloro</string>
+    <string name="title_electroprecipitation">Electro precipitación</string>
+    <string name="title_absorption">Absorción</string>
+
+    <string name="body_demostration">¿Cuál es la calidad del agua que consumes?</string>
+
+    <string name="title_tds">TDS (Total de Solidos en Dispersión)</string>
+    <string name="body_tds">Mide en ppm (Partes Por Millón) la cantidad de solidos disueltos en el agua y que son “Invisibles” al ojo humano.\n\n
+        Sin embargo muchos de ellos son muy perjudiciales a la salud como el Plomo, Metales Pesados, Nitratos, Nitritos, Fosfatos, Cloro y sus derivados, Isotopos radioactivos. Etc.</string>
+    <string name="title_tds_table">TABLA DE DUREZA</string>
+    <string name="title_tds_2">PRESENCIA DE CLORO</string>
+    <string name="list_tds">
+        &#8226; El “OTO” es un reactivo que tiñe de amarillo el Cloro para hacerlo visible.
+        \n&#8226; El Cloro es un VENENO añadido por las autoridades al agua para matar bacterias y microbios.
+        \n&#8226; El Cloro esta íntimamente relacionado con muchas enfermedades, incluidos los canceres de vejiga y colon.
+        \n&#8226; El Cloro debería ser retirado del agua, antes de ser consumida.
+    </string>
+    <string name="title_tds_3">ELECTRO PRECIPITACION</string>
+    <string name="body_tds_2">En nuestra agua existen una significativa cantidad de disolventes, nitratos, nitritos, amonio, isotopos radiactivos, metales pesados, plomo, residuos de fármacos y antibióticos, hormonas, bacterias, virus, parásitos, y muchos más.\n\n
+        Sin embargo al no ser visibles a simple vista nos es fácil olvidarnos de su existencia, por este medio los haremos visibles.</string>
+    <string name="title_tds_4">ABSORCIÓN DE CONTAMINANTES POR LOS ALIMENTOS</string>
+    <string name="list_tds_2">
+        &#8226; El Cloro desaparece. Es absorbido por los alimentos.
+        \n&#8226; Otros contaminantes que tiene el agua, son absorbidos por los alimentos
+    </string>
+
+    <string name="title_technology">El Sistema de Purificación y Optimización de agua más avanzado del mundo.</string>
+    <string name="title_economy">Economía</string>
+    <string name="title_video">Video</string>
+
+    <string name="body_technology_2">El microprocesador <b>Indalo ROB</b> hace mucho más que simplemente verse bien</string>
+    <string name="reason_technology_2_1">Supervisa la calidad del agua producida, indicando el TDS del agua.</string>
+    <string name="reason_technology_2_2">Advierte cuando los filtros tiene que ser cambiados o su mantenimiento.</string>
+    <string name="reason_technology_2_3">Controla el proceso que está siendo llevado a cabo por el equipo.</string>
+    <string name="reason_technology_2_4">Desconecta el equipo si hay alguna pérdida de agua.</string>
+
+    <string name="title_installation">Instalación</string>
+    <string name="title_mantenance">Mantenimiento</string>
+    <string name="title_installation_mantenance">Instalación y Mantenimiento</string>
+
+    <string name="title_filter_1">Filtro Carbón ST-33</string>
+    <string name="title_filter_2">Filtro Carbón ST-CT0</string>
+    <string name="title_filter_3">Filtro Sedimento ST-05</string>
+    <string name="list_filter_1">
+        &#8226; Filtro de 1 micra. \n
+        &#8226; Carbón granular activado con Plata, de concha de coco 100% natural y orgánico. \n
+        &#8226; Desinfectante poderoso para eliminar las bacterias y otros organismos. \n
+        &#8226; Retiene metales pesados, Cloro y otros subproductos cancerígenos y compuestos resultantes de la descomposición de vegetales o algas y el metabolismo animal.
+    </string>
+    <string name="list_filter_2">
+        &#8226; Filtro de 1 micra. \n
+        &#8226; Carbón activado en bloque, de concha de coco, 100% natural y orgánico. \n
+        &#8226; Aumenta la capacidad de retención de productos nocivos para la salud como el Cloro y sus derivados; y el arsénico.
+    </string>
+    <string name="list_filter_3">
+        &#8226; Filtro de 5 micrones.
+        \n&#8226; Elimina los sedimentos en el agua.
+        \n&#8226; Retiene: arena, grava y óxido, entre otras partículas en suspensión.
+    </string>
+
+    <string name="body_economy">¿Cuanto gastamos en agua?</string>
+
+    <string name="title_health_1">, ¿sabe como afecta su piel, cabello, y salud en general la Cal y otros elementos en el agua que consume?</string>
+    <string name="reason_health_1_1">El cabello tiene aspecto seco, sin brillo y quebradizo. La piel reseca y se arruga más rápido.</string>
+    <string name="reason_health_1_2">En personas con piel delicada o alergícas puede desarrollar dermatitis atópica.</string>
+    <string name="reason_health_1_3">La pañalitis e irritación es usual por los detergentes residuales que quedan en la ropa.</string>
+    <string name="reason_health_1_4">La pañalitis e irritación es usual por los detergentes residuales que quedan en la ropa.</string>
+    <string name="reason_health_1_5">Químicos, pesticidas, bacterias y microorganismos, pueden causar enfermedades y cancer.</string>
+    <string name="reason_health_1_6">Un agua con demasiado contenido en carbonato cálcico puede provocarnos cálculos.</string>
+
+    <string name="title_health_2">, la salud de su hogar también se afecta por usar agua no purificada y optimizada</string>
+    <string name="reason_health_2_1">La higiene del hogar no es la adecuada porque el agua contiene cal, sedimentos, bacterias, etc.</string>
+    <string name="reason_health_2_2">Vasos, ventanas, sanitarios, etc. quedan con o «gotas» de cal, dando un aspeto de suciedad.</string>
+    <string name="reason_health_2_3">La tubería, grifos y duchas se tapan, haciendo que el flujo del líquido sea menor.</string>
+    <string name="reason_health_2_4">Lavamanos, bañeras y sanitarios, se le forma una línea amarillenta, con apariencia poco higienica.</string>
+    <string name="reason_health_2_5">Los equipos eléctricos que trabajan con agua, gastan más energía y se queman.</string>
+    <string name="reason_health_2_6">Un agua con demasiado contenido en carbonato cálcico puede provocarnos cálculos.</string>
+
+    <string name="title_health_3">, Indalo Central beneficia la salud de su familia y hogar, purificando y optimizando el agua que consumen.</string>
+    <string name="list_health_1">
+        &#8226; Agua filtrada, limpia y sin contaminantes para toda la casa.
+        \n&#8226; Eliminación de agentes contaminantes y bacterias en un 99.99%
+        \n&#8226; Agua sin olor, sin turbidez.
+        \n&#8226; Piel suave sin resquedad, hidratada y límpia.
+        \n&#8226; Cabello límpio, suave, sedoso, con color y brillo.
+        \n&#8226; Sin pañalitis, irritaciones y otras afecciones en la piel.
+        \n&#8226; No más marcas de cal en vasos, ventanas y vidrios.
+        \n&#8226; Tuberías límpias sin obstrucciones y con buen flujo.
+        \n&#8226; Reducción de elementos cancerigenos como el Cromo, Sulfuro de Hídrogeno, Cloro, pesticidas, etc.
+    </string>
+
+    <string name="title_health_desmostration_body_1">¿Qué opinas del agua que usas diariamente?</string>
+    <string name="title_health_mini_unidad">MINI UNIDAD</string>
+    <string name="body_health_mini_unidad">En este maletín se encuentra un sistema de optimización de agua, basado en el funcionamiento del Indalo Central.
+        \nEl objetivo es tomar agua de su red sin filtrar, usando esta Miní Unidad para optimizar el líquido y poder realizar varias pruebas comparativas de su agua actual Vs el agua del Indalo.</string>
+    <string name="title_health_prueba_jabon">PRUEBA DE JABÓN</string>
+    <string name="body_health_prueba_jabon"><b>¿Qué tan efectiva es el agua de red al momento de lavar?</b>
+
+        \n\n<b>1. </b>Esta prueba determina como el agua normal absorve los detergentes y también como se reduce la efectividad de los mismos. Esto último genera más gastos y consumo de detergentes.
+        \n<b>2. </b>Coloque el agua de la red en el envase marcado con Rojo. En el envase marcado con azul, vierta agua filtrada.
+        \n<b>3. </b>Coloque varias gotas de detergentes en los envases (la misma cantidad en ambos), cierre, agite y vea los resultados.</string>
+    <string name="title_health_lavado_manos">LAVADO DE MANOS</string>
+    <string name="body_health_lavado_manos">Si usted tiene una piel delicada, sufre de resequedad, demartitis atopica o caida del cabello, etc., una de las causas puede ser el agua que usas para lavarte frecuentemente.
+
+        \n\n<b>1.- Use un jabón normal y agua de su red</b>, a continuación enjabone su mano derecha y enjuague con el agua normal.
+        \n<b>2.- Repita la operación</b>, pero usando la otra mano y enjuague con el agua optimizada de Indalo.
+        \n<b>3.- Toque el aréa lavada</b> con agua normal y con agua Indalo. <b>¿Sientes la diferencia?</b></string>
+
+    <string name="title_health_ropa_bebe">PRUEBA DE LA ROPA DE BEBE</string>
+    <string name="body_health_ropa_bebe"><b>¿Cuanto detergente queda en nuestra ropa después de ser lavada?</b>
+
+        \n&#8226; Tome un bowl de cristal y enjuáguelo con el agua de la Miní Unidad.
+        \n&#8226; Coloque una prenda de ropa de bebe o una toalla limpia o recien lavada.
+        \n&#8226; Cubra la prenda con agua Indalo de la Miní Unidad y póngala a un lado y espere unos minutos.
+        \n&#8226; Retire la prenda y observe el agua que queda en el bowl.</string>
+
+    <string name="title_indalo_central_technology">El Sistema de Purificación de agua para toda la casa</string>
+    <string name="title_water_purification">Purificación del agua</string>
+
+    <string name="title_indalo_central_technology_purification">Optimiza y suavisa el agua proveniente de la red, eliminando elementos nocivos.</string>
+    <string name="title_carbon_activado">Carbón activado de concha de coco.</string>
+    <string name="body_carbon_activado">Reduce una amplia gama de productos químicos orgánicos volátiles y sintéticos, incluyendo Cloro, pesticidas, herbicidas y disolventes industriales.</string>
+    <string name="title_cesta_filtrante">Cesta Filtrante</string>
+    <string name="kdf">KDF</string>
+    <string name="body_kdf">
+        &#8226; Reduce el hierro y el sulfuro de Hidrógeno.
+        \n&#8226; Elimina bacterias y algas.
+        \n&#8226; Reduce el Plomo y metales pesados (Mercurio, Níquel y Cromo).</string>
+    <string name="title_arena_cuarzo">Arena de Cuarzo</string>
+    <string name="body_indalo_central_technology_2">Indalo Central tiene el tamaño ideal para ser colocado en el exterior de sus casa, de una manera discreta y segura. \n \n
+    Diseñado con materiales capaces de soportar las inclemencias del clima: lluvia, sol y temperatura extremas.
+    </string>
+    <string name="body_indalo_central_technology_2_2">Se conecta entre el Sistema de agua de la red y la entrada de agua de su vivienda. \n \n
+    El agua optimizada Indalo llegará a todo su hogar: \n
+    cocina, baños, calentadores, lavadoras, lavavajillas, etc.</string>
+    <string name="body_indalo_central_technology_3_1">Mantenimiento mínimo con Garantía de por vida, siempre y cuando el servicio sea realizado por Indalo Water.</string>
+    <string name="body_indalo_central_technology_3_2">Indalo Central esta fabricado con materiales anticorrosivos altamente duraderos. \n \n
+La válvula Indalo SC previamente programada, según la dureza de su agua, controla y gestiona el lavado automático del sistema.  \n \n
+Dependiendo del consumo de agua optimizada, puede ser entre 1 o tres veces a la semana. \n \n
+Usted no necesita supervisar estas operaciones del Sistema Indalo Central</string>
+
+    <string name="title_indalo_3_health">, ¿Conocen los beneficios del ozono para su salud?</string>
+    <string name="reason_indalo_3_health_1">Es ideal para niño y personas con piel delicada.</string>
+    <string name="reason_indalo_3_health_2">No contiene alérgenos, no usa ningún químico.</string>
+    <string name="reason_indalo_3_health_3">Elimina bacterias y hongos al lavar y al limpiar.</string>
+    <string name="reason_indalo_3_health_4">Elimina pañalitis e irritación causada por los detergentes residuales en la ropa.</string>
+    <string name="reason_indalo_3_health_5">Lave y desinfecte utencilios (tazas, juguetes, chupones, etc.)</string>
+
+    <string name="title_indalo_3_demostration">, favor digan que parte de su casa debe estar más limpia.</string>
+
+    <string name="title_indalo_3_economy">, ¿Cuanto gastan al mes en productos de limpieza?</string>
+
+    <string name="title_indalo_3_technology">, ahora lavar y limpiar es más efectivo y económico</string>
+    <string name="title_indalo_3_ozono">Poder del ozono</string>
+    <string name="question_indalo_2">¿Qué es el Indalo-3?</string>
+    <string name="body_indalo_3_technology_1">El Indalo-3 es un producto innovador y ecológico para el lavado de su ropa y para la limpieza de su hogar.
+        \n \n
+        &#8226; Está diseñado para ahorrarle dinero y mantener su ropa más limpia y fresca. \n \n
+        &#8226; Trabaja con la misma tecnología de limpieza que usan las lavanderías de reconocidas cadenas de hoteles, como Hilton y Marriot; así como en clínicas y hospitales.
+    </string>
+
+    <string name="title_function">ASÍ ES COMO FUNCIONA</string>
+    <string name="body_indalo_3_technology_1_2">El Indalo-3 convierte el agua fría, que proviene de la red, en un poderoso agente de limpieza. Asimismo, optimiza el lavado (menor temperatura, menor cantidad de químicos y reducción de ciclos de lavado).
+    \n \n
+    El Ozono es un potente desinfectante ecológico que elimina virus, bacterias, hongos y moho, entre otros; sin dejar residuos. Elimina todo tipo de olores desagradables en el ambiente y en el agua. </string>
+
+    <string name="title_indalo_3_technology_2">Fácil de instalar</string>
+    <string name="body_indalo_3_technology_2"><b>Indalo-3</b> se conecta a cualquier lavadora utilizando las mangueras de tamaño stándar existentes. Sin modificaciones, ni fontanería adicional.</string>
+
+    <string name="list_indalo_3_technology_1">
+        &#8226; No usa detergentes o químicos irritantes.
+        \n&#8226; Verdadero aroma a limpio.
+        \n&#8226; Tecnología 100% natural.
+        \n&#8226; Ideal para niños y personas con piel delicada o alérgicas.
+    </string>
+    <string name="list_indalo_3_technology_2">
+        &#8226; Penetra profundamente la fibra, eliminando manchas.
+        \n&#8226; No altera el color y deja su ropa suave.
+        \n&#8226; Ideal para limpiar en baños y cocinas.
+    </string>
+
+    <string name="title_indalo_3_technology_3_1">Barra Led</string>
+    <string name="title_indalo_3_technology_3_2">Con garantía</string>
+
+    <string name="body_indalo_3_technology_3_1">El Indalo-3 cuenta con un moderno panel de control que le informa sobre el funcionamiento del equipo, su nivel de Ozono, etc.</string>
+    <string name="body_indalo_3_technology_3_2">Indalo-3 tiene una garantía de 3 años y cuenta con el soporte técnico de Indalo Water.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="title_vendedor">Vendedor</string>
+    <string name="item_number">Número</string>
+
+    <string-array name="array_offices">
+        <item>Oficina</item>
+    </string-array>
+
+    <string-array name="array_teams">
+        <item>Equipo</item>
+    </string-array>
+
+    <string name="title_my_account">Mi Cuenta</string>
+
+    <string name="body_indalo_3_economy">¿Cuánto podemos ahorrar en productos de limpieza y detergentes?</string>
+    <string name="body_indalo_3_economy_2">Al no necesitar detergentes ni químicos para limpiar, usted no debería gastar más dinero en este tipo de compras.</string>
+
+    <string name="body_indalo_rob_economy_info">Gasto mensual de una familia promedio (2 adultos y 2 niños) en la compra de agua potable embotellada en el sur de la Florida: $35.00</string>
+    <string name="text_gasto_mensual_promedio">Gasto Mensual \nPromedio $</string>
+    <string name="text_gasto_anual">Gasto Anual \n$</string>
+    <string name="text_gasto_total">Gasto Total \n$</string>
+    <string name="text_anos">Años \n$</string>
+    <string name="text_ahorro_total">Ahorro Total \n$</string>
+    <string name="text_botellas_ambiente">Botellas que no llegan a contaminar el ambiente</string>
+    <string name="text_promedio">(Promedio)</string>
+    <string name="text_ahorro_indalo_3">Ahorro Total \ncon INDALO_3</string>
+
+    <string name="body_indalo_3_economy_info">Familia promedio: Dos adultos y dos niños.</string>
+    <string name="body_indalo_3_economy_info_2">Gasto promedio mensual en detergentes y productos de limpieza: $200.00</string>
+    <string name="action_siguiente_video">Siguiente Video</string>
+    <string name="action_video_anterior">Video Anterior</string>
+    <string name="body_indalo_3_economy_3">Al no usar agua caliente para lavar y con ciclos de enguajes más cortos, la factura eléctrica se reduce considerablemente.</string>
+    <string name="body_indalo_3_economy_info_3">Gasto promedio mensual en detergentes y productos de limpieza: $100.00</string>
+    <string name="text_ahorro_indalo_3_dollars">Ahorro Total con INDALO-3 en $</string>
+    <string name="text_indalo_3_percentage">10% promedio</string>
+    <string name="title_indalo_3_economy_2">, ¿Cuánto gastan al mes en electricidad?</string>
+    <string name="title_miami">Miami</string>
+    <string name="phones">Teléfonos:</string>
+    <string name="title_orlando">Orlando</string>
+
+    <string name="solicitud_credito">Solicitud de Crédito</string>
+    <string name="equipo">Equipo</string>
+    <string name="informacion_personal">Información Personal</string>
+    <string name="segundo_nombre">Segundo Nombre</string>
+    <string name="id_conducir">ID: Licencia De Conducir</string>
+    <string name="numero_id">Numero de ID</string>
+    <string name="fecha_id">Fecha de ID</string>
+    <string name="expiration_date">Fecha de Expiración</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="seguro_social">Seguro Social</string>
+    <string name="telefono">Teléfono</string>
+    <string name="celular">Celular</string>
+    <string name="hora_llamar">Hora para Llamar</string>
+    <string name="direccion">Dirección</string>
+    <string name="propia">Propia</string>
+    <string name="rentada">Rentada</string>
+    <string name="tipo_residencia">Tipo de Residencia:</string>
+    <string name="valor_casa">Valor de la Casa</string>
+    <string name="hipoteca">Hipoteca/Pagos de Renta</string>
+    <string name="tiempo_residencia">Tiempo en la Residencia:</string>
+    <string name="anos">Años</string>
+    <string name="meses">Meses</string>
+    <string name="contrato_espanos">Contrato en español:</string>
+    <string name="info_empleo">Información de Empleo</string>
+    <string name="empleo_propio">Empleo Propio:</string>
+    <string name="empleador">Empleador</string>
+    <string name="posicion">Posición</string>
+    <string name="tiempo_trabajo_actual">Tiempo en el Trabajo Actual:</string>
+    <string name="telefono_empleador">Telefono del Empleador</string>
+    <string name="ingreso_menusal">Ingreso Mensual</string>
+    <string name="retiro">Retiro</string>
+    <string name="renta">Renta</string>
+    <string name="inversiones">Inversiones</string>
+    <string name="otro">Otro</string>
+    <string name="body_signature">Al firmar esta aplicación: 1) Usted garantiza que toda la información que provee es verdadera y completa; 2) Usted autoriza a INDALO, LLC/AGENT CONSULTING AND SERVICES, LLC a asignar esta aplicación a Aqua Finance, Inc. o sus cesionarios o cualquier otra financista. 3) Usted autoriza una investigación completa y liberación de cualquier registro de cualquier fuente incluyendo reportes de la agencia de crédito para verificar que la información en esta aplicación es eficaz.</string>
+    <string name="firmar">Firmar</string>
+
+</resources>
